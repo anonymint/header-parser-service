@@ -1,0 +1,20 @@
+{
+  "name": "header-parser-service",
+  "version": "1.0.0",
+  "description": "Header Parser Microservice",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "header-parser",
+    "microservice"
+  ],
+  "author": "anonymint",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^1.2.0",
+    "express": "^4.13.3"
+  }
+}
