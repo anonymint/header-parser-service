@@ -16,4 +16,9 @@ module.exports = function(app) {
 		.get(function(req, res){
 			res.json(parserController.process(req));
 		});
+
+	app.route('/*')
+		.get(function(req,res){
+			res.redirect('/');
+		});
 };
